@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="PT-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vandal Skate Co. | Estilo Baker Punk</title>
+    <link rel="stylesheet" href="projeto-sistema-web.css">
 </head>
 <body>
-    
+
+    <!-- AVISO TOPO -->
+    <div class="top-bar">
+        NOVO VÍDEO "ASPHALTO MUTILADO" DISPONÍVEL AGORA - ASSISTA ABAIXO
+    </div>
+
+    <!-- CABEÇALHO BRUTO -->
+    <header>
+        <div class="logo">VANDAL</div>
+        <nav>
+            <ul>
+                <li><a href="#produtos">SHAPES</a></li>
+                <li><a href="#produtos">ROUPAS</a></li>
+                <li><a href="#videos">VÍDEOS</a></li>
+                <li><a href="#equipe">EQUIPE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SEÇÃO DE VÍDEO (RODANDO SOZINHO EM LOOP) -->
+    <section class="video-section" id="videos">
+        <div class="video-container">
+            <!-- Vídeo real de skate de rua configurado para dar Autoplay e Loop infinito -->
+            <iframe src="https://youtu.be/EuU41ugcNXk?si=QJNO2PcWkHBY6gSp" title="Vandal Skate Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2 class="video-title">VANDAL SKATEBOARDS: "RAW STREET TAPE" (2026)</h2>
+    </section>
+
+    <!-- VITRINE DE PRODUTOS -->
+    <main class="products-container" id="produtos">
+        <h2 class="section-title">EQUIPAMENTO DE RUA</h2>
+        
+        <div class="grid-products">
+            <!-- Produto 1: Shape Real -->
+            <div class="product-card">
+                <img class="product-img" src="https://images.unsplash.com/photo-1547447134-cd3f5c716030?q=80&w=500" alt="Shape de Skate Real">
+                <div class="product-info">
+                    <div class="product-title">SHAPE VANDAL LOGO OG VERMELHO 8.25</div>
+                    <div class="product-price">R$ 299,00</div>
+                    <button class="btn-buy">COMPRAR</button>
+                </div>
+            </div>
+
+            <!-- Produto 2: Foto de tênis/skatista de rua -->
+            <div class="product-card">
+                <img class="product-img" src="https://images.unsplash.com/photo-1564982743470-4799e56f5af7?q=80&w=500" alt="Skatista andando">
+                <div class="product-info">
+                    <div class="product-title">CAMISETA PUNK LOGO OVERSIZED</div>
+                    <div class="product-price">R$ 139,00</div>
+                    <button class="btn-buy">COMPRAR</button>
+                </div>
+            </div>
+
+            <!-- Produto 3: Foto de shape clássico no asfalto -->
+            <div class="product-card">
+                <img class="product-img" src="https://images.unsplash.com/photo-1520156565706-ece924930912?q=80&w=500" alt="Skate no chão">
+                <div class="product-info">
+                    <div class="product-title">MOLETOM PRETO VANDAL SKATE CO.</div>
+                    <div class="product-price">R$ 279,00</div>
+                    <button class="btn-buy">COMPRAR</button>
+                </div>
+            </div>
+
+            <!-- Produto 4: Foto de tênis de skate gasto -->
+            <div class="product-card">
+                <img class="product-img" src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=500" alt="Tênis de Skate">
+                <div class="product-info">
+                    <div class="product-title">CALÇA WORK PANTS JEANS LARGA</div>
+                    <div class="product-price">R$ 220,00</div>
+                    <button class="btn-buy">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>VANDAL SKATEBOARDS CORP. © 2026</p>
+        <p>CONSTRUÍDO PARA DESTRUIR O ASFALTO</p>
+    </footer>
+
 </body>
 </html>
